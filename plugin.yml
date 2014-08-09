@@ -1,0 +1,13 @@
+name: CloudTokens
+version: 1.0
+description: This plugin allows you to buy stuff with tokens.
+main: me.mrbluecloud.tokens.Tokens
+author: MrBluecloud
+
+commands:
+  tokens:
+    description: Reloads the plugin
+    aliases: [token, tokens, dawntokens]
+  shop:
+    description: Buy stuff with your Tokens.
+    aliases: [token, tokens]

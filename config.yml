@@ -1,0 +1,32 @@
+general:
+  notEnoughTokens: '&eSorry, but you do not have enough tokens!'
+  notEnoughSpace: '&cYou don''t have enough room in your inventory to buy this item!'
+settings:
+  inventoryTitle: '&bYour tokens: &3<tokens>'
+  inventoryRows: 1
+  inventory:
+    - type: WOOL
+      damage: 15
+      quantity: 1
+      name: '&bHappy Day'
+      lore:
+        - '&3This is a limited edition Happy Day hat!'
+        - '&3Costs only &b10 &3tokens.'
+      cost: 10
+    - type: DIAMOND
+      damage: 0
+      quantity: 1
+      name: '&bDiamond'
+      lore:
+        - '&3This is just a normal diamond..'
+        - '&3Costs only &b15 &3tokens!'
+      cost: 15
+    - type: DIAMOND_SWORD
+      damage: 1556
+      quantity: 1
+      name: '&6&lLegendary Sword &8[&e1337 Tokens&8]'
+      lore:
+        - '&3The sword of gods..'
+      enchants:
+          - DAMAGE_ALL 100
+      cost: 1337
